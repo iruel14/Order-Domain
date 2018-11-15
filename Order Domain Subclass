@@ -38,7 +38,7 @@ AddSubClass("cleric", "order domain", {
 		},
 		"subclassfeature1.1" : {
 			name : "Voice of Authority",
-			source : ["UA:OD", 1],
+			source : ["GGR", 1],
 			minlevel : 1,
 			description : desc([
 				"Whenever I use a spell slot to cast a spell on an ally, it can use its reaction to attack",
@@ -48,7 +48,7 @@ AddSubClass("cleric", "order domain", {
 		},
 		"subclassfeature2" : {
 			name : "Channel Divinity: Order's Demand",
-			source : ["UA:OD", 1],
+			source : ["GGR", 1],
 			minlevel : 2,
 			description : desc([
 				"As an action, all chosen targets in 30 ft that can see or hear me must make a Wis save",
@@ -59,7 +59,7 @@ AddSubClass("cleric", "order domain", {
 		},
 		"subclassfeature6" : {
 			name : "Order's Dominion",
-			source : ["UA:OD", 2],
+			source : ["GGR", 2],
 			minlevel : 6,
 			description : desc([
 				"When I cast an enchantment spell using a spell slot, I can change the spell's casting time to bonus action, as long as it is normally 1 action",
@@ -71,7 +71,7 @@ AddSubClass("cleric", "order domain", {
 		},
 		"subclassfeature8" : {
 			name : "Divine Strike",
-			source : ["UA:OD", 2],
+			source : ["GGR", 2],
 			minlevel : 8,
 			description : "\n   " + "Once per turn, when I hit a creature with a weapon attack, I can do extra damage",
 			additional : levels.map(function (n) {
@@ -84,7 +84,7 @@ AddSubClass("cleric", "order domain", {
 		},
 		"subclassfeature17" : {
 			name : "Order's Wrath",
-			source : ["UA:OD", 2],
+			source : ["GGR", 2],
 			minlevel : 17,
 			description : desc([
 				"If I deal my Divine Strike damage to a creature, I can curse it, causing it takes extra damage from my allies",
